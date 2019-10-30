@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MindSculpt",
+    "description": "Build your mind with MindSculpt",
+    "slug": "mind-sculpt",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon-no-trans-1024x1024.png",
+    "splash": {
+      "image": "./assets/icon-no-trans-1364x1024.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.kret13.mindsculpt",
+      "buildNumber": "1.0.3",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.kret13.mindsculpt",
+      "versionCode": 3,
+      "permissions": ["READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    }
+  }
+}
